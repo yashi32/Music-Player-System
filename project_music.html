@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MusicPlayer.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="head-container" id="block">
+
+            <div class="head-left size-adjust" id="block">
+                <div class="size-adjust" id="block">
+                    <div class="icon size-adjust " id="block">
+                        <img src="Images/icon/music_icon.png" alt="music icon" id="block">
+                    </div>
+                </div>
+                <div class="size-adjust name " id="block">
+                    <span>Ninja<br></span>
+                    <span> <b>Studio</span>
+                </div>
+
+                <div class="size-adjust button " id="block">
+                    <form>
+                        <span class="fab" id="block">Favourites</span>
+                    </form>
+                </div>
+            </div>
+
+            <div class="right size-adjust " id="block">
+                <div class="head-right size-adjust" id="block">
+                    <div class="search-button size-adjust" id="block" style="margin-top: 5px;">
+                        <img src="Images/icon/search.png" id="search-vector" alt="">
+                    </div>
+
+                    <div class="search-button size-adjust" id="block">
+                        <form action="#">
+                            <input type="text" placeholder="Search..." name="search"
+                                class="search-button size-adjust search" id="block">
+                        </form>
+                    </div>
+
+                    
+                </div>
+
+                
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <main id="main">
+            <div class="recent-songs size-adjust">
+                <div class="song zoom ">
+                    <span><img src="images/songs/weekend.jpg" alt=""></span>
+                </div>
+                <div class="song zoom">
+                    <span><img src="Images/songs/dua_lipa.png" alt=""></span>
+                </div>
+                <div class="song zoom">
+                    <span><img src="images/songs/akon.jpg" alt=""></span>
+                </div>
+            </div>
+
+            <section id="latest-Release">
+                <div class="latest-songs ">
+
+                    <div class="heading">
+                        <span>
+                            <h3>Fresh Voices</h3>
+                        </span>
+                    </div>
+
+                    <dir class="latest-collection">
+
+                        <div class="songs-detail ">
+                            <div class="latest-songs-detail">
+                                <div class="latest-song-image ">
+                                    <img src="Images/latest/Malang.jpg" alt="">
+                                </div>
+                                <div class="latest-song-detail-image ">
+                                    <h4 style="margin-top: 10vh">Hui Malang</h4>
+                                    <p style="font-size: 10px; margin-top: -2.5vh;">JAN 11,2020</p>
+                                </div>
+                                <div class="latest-song-detail-icon">
+                                    <!-- <img src="images/icons/menu.png" alt=""> -->
+
+
+
+                                    <h3 class="queue-dropdown-1">
+                                        <input id="check01-1" type="checkbox" name="menu-1" />
+                                        <label for="check01-1"><i><span><img src="Images/icon/menu_icon.png"
+                                                        style="margin-top: -8vh"></span></i></label>
+                                        <ul class="submenu-1">
+                                            <li> <img src="Images/icon/play_button.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp&nbsp
+                                                Play &nbsp Now</li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li> <img src="Images/icon/plus.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Add To Queue</li>
+                                            <hr>
+                                            <li><img src="Images/icon/add-list.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp Add To Favourites</li>
+                                            <hr>
+                                            <li><img src="Images/icon/info_menu.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Get Info</li>
+                                        </ul>
+                                    </h3>
+
+
+
+
+
+
+                                    <p style="margin-top: -3.5vh; margin-left: 2.3vw; font-size: 12px;">
+                                        5:11</p>
+                                </div>
+
+                            </div>
+
+                            <div class="latest-songs-detail">
+                                <div class="latest-song-image ">
+                                    <img src="Images/latest/channa_veh.jpg" alt="">
+                                </div>
+                                <div class="latest-song-detail-image ">
+                                    <h4 style="margin-top: 10vh">Channa Ve</h4>
+                                    <p style="font-size: 10px; margin-top: -2.5vh;">FEB 21,2020</p>
+                                </div>
+                                <div class="latest-song-detail-icon">
+                                    <!-- <img src="images/icons/menu.png" alt=""> -->
+                                    <h3 class="queue-dropdown-2">
+                                        <input id="check01-2" type="checkbox" name="menu-2" />
+                                        <label for="check01-2"><i><span><img src="Images/icon/menu_icon.png"
+                                                        style="margin-top: -8vh;"></span></i></label>
+                                        <ul class="submenu-2">
+                                            <li> <img src="Images/icon/play_button.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp&nbsp
+                                                Play &nbsp Now</li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li> <img src="Images/icon/plus.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Add To Queue</li>
+                                            <hr>
+                                            <li><img src="Images/icon/add-list.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp Add To Favourites</li>
+                                            <hr>
+                                            <li><img src="Images/icon/info_menu.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Get Info</li>
+                                        </ul>
+                                    </h3>
+                                    <p style="margin-top: -0.5vh; font-size: 10px;">4:02</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="songs-detail ">
+                            <div class="latest-songs-detail">
+                                <div class="latest-song-image ">
+                                    <img src="Images/latest/changes.jpg" alt="">
+                                </div>
+                                <div class="latest-song-detail-image ">
+                                    <h4 style="margin-top: 10vh">Changes</h4>
+                                    <p style="font-size: 10px; margin-top: -2.5vh;">FEB 14,2020</p>
+                                </div>
+                                <div class="latest-song-detail-icon">
+                                    <!-- <img src="images/icons/menu.png" alt=""> -->
+                                    <h3 class="queue-dropdown-3">
+                                        <input id="check01-3" type="checkbox" name="menu-3" />
+                                        <label for="check01-3"><i><span><img src="Images/icon/menu_icon.png"
+                                                        style="margin-top: -8vh;"></span></i></label>
+                                        <ul class="submenu-3">
+                                            <li> <img src="Images/icon/play_button.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp&nbsp
+                                                Play &nbsp Now</li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li> <img src="Images/icon/plus.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Add To Queue</li>
+                                            <hr>
+                                            <li><img src="Images/icon/add-list.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp Add To Favourites</li>
+                                            <hr>
+                                            <li><img src="Images/icon/info_menu.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Get Info</li>
+                                        </ul>
+                                    </h3>
+
+                                    <p style="margin-top: -0.5vh; font-size: 10px;">3:22</p>
+                                </div>
+
+                            </div>
+
+                            <div class="latest-songs-detail">
+                                <div class="latest-song-image ">
+                                    <img src="Images/latest/emiway.jpg" alt="">
+                                </div>
+                                <div class="latest-song-detail-image ">
+                                    <h4 style="margin-top: 10vh">Firse Machayenge</h4>
+                                    <p style="font-size: 10px; margin-top: -2.5vh;">JAN 14,2020</p>
+                                </div>
+                                <div class="latest-song-detail-icon">
+                                    <!-- <img src="images/icons/menu.png" alt=""> -->
+                                    <h3 class="queue-dropdown-4">
+                                        <input id="check01-4" type="checkbox" name="menu-4" />
+                                        <label for="check01-4"><i><span><img src="Images/icon/menu_icon.png"
+                                                        style="margin-top: -8vh;"></span></i></label>
+                                        <ul class="submenu-4">
+                                            <li> <img src="Images/icon/play_button.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp&nbsp
+                                                Play &nbsp Now</li>
+                                            <li>
+                                                <hr>
+                                            </li>
+                                            <li> <img src="Images/icon/plus.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Add To Queue</li>
+                                            <hr>
+                                            <li><img src="Images/icon/add-list.png" alt=""
+                                                    style="height: 15px; width: 15px;">&nbsp&nbsp Add To Favourites</li>
+                                            <hr>
+                                            <li><img src="Images/icon/info_menu.png" alt=""
+                                                    style="height: 15px; width: 15px;"> &nbsp&nbsp Get Info</li>
+                                        </ul>
+                                    </h3>
+                                    <p style="margin-top: -0.5vh; font-size: 10px;">4:16</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </dir>
+
+                </div>
+            </section>
+
+            <section id="popular-artists">
+
+                <div class="parent-div">
+                    <div class="text-div">
+                        <h3>Popular Artists</h3>
+                    </div>
+
+                    <div class="artists-detail size-adjust">
+                        <div class="artist-name">
+                            <img src="images/popular/Guru.jpg" alt="">
+                            <div class="image-btn artist-name">
+                                <div class="image-btn-icon">
+                                    <a href="liam.html" target="_blank"><img src="Images/icon/singer_play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="artist-name">
+                            <img src="Images/popular/neha_kakkar.jpg" alt="">
+                            <div class="image-btn artist-name">
+                                <div class="image-btn-icon">
+                                    <a href="liam.html" target="_blank"><img src="Images/icon/singer_play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="artist-name">
+                            <img src="Images/popular/atif.jpg" alt="">
+                            <div class="image-btn artist-name">
+                                <div class="image-btn-icon">
+                                    <a href="liam.html" target="_blank"><img src="Images/icon/singer_play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="artist-name">
+                            <img src="Images/popular/enrique-iglesias-4.jpg" alt="">
+                            <div class="image-btn artist-name">
+                                <div class="image-btn-icon">
+                                    <a href="liam.html" target="_blank"><img src="Images/icon/singer_play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="artist-name">
+                            <img src="Images/popular/kishore.jpg" alt="">
+                            <div class="image-btn artist-name">
+                                <div class="image-btn-icon">
+                                    <a href="liam.html" target="_blank"><img src="Images/icon/singer_play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="artist-name">
+                            <img src="Images/popular/lata.jpg" alt="">
+                            <div class="image-btn artist-name">
+                                <div class="image-btn-icon">
+                                    <a href="liam.html" target="_blank"><img src="Images/icon/singer_play.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="text-div size-adjust general-name">
+                        <div>
+                            <h4> &nbsp; Guru <br> &nbsp; Randhawa </h4>
+                        </div>
+                        <div>
+                            <h4> &nbsp;Neha <br> &nbsp;Kakkar&nbsp;</h4>
+                        </div>
+                        <div>
+                            <h4>Atif <br> Aslam</h4>
+                        </div>
+                        <div>
+                            <h4>Enrique&nbsp;&nbsp; <br> Iglesias&nbsp;&nbsp;</h4>
+                        </div>
+                        <div>
+                             <h4> &nbsp;Kihore <br> &nbsp;Kumar&nbsp;</h4>
+                        </div>
+                        <div>
+                            <h4> &nbsp;Lata <br> &nbsp;Mangeshkar&nbsp;</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="stations">
+                <div class="station-detail size-adjust">
+                    <div class="station-name-logo">
+                        <img src="Images/station/radio.jpg" alt="">
+                        <div class="station-name-logo-text">
+                            <h4> Stations </h4>
+                        </div>
+                    </div>
+
+                    <div class="station-name">
+                        <img src="Images/station/happy_tunes.jpg" alt="">
+                        <h4>Happy Tunes</h4>
+                        <!-- <div class="station-name-text">
+                            <h4>Love</h4>
+                        </div> -->
+
+                    </div>
+
+                    <div class="station-name">
+                        <img src="Images/station/devotional.jpg" alt="">
+                        <h4>Devotional</h4>
+                        <!-- <div class="station-name-text">
+                            <h4>Retro</h4>
+                        </div> -->
+                    </div>
+
+                    <div class="station-name">
+                        <img src="Images/station/party.jpg" alt="">
+                        <h4>Party</h4>
+                        <!-- <div class="station-name-text">
+                            <h4>Chill</h4>
+                        </div> -->
+                    </div>
+
+                    <div class="station-name">
+                        <img src="Images/station/chill.jpg" alt="">
+                        <h4>Chill</h4>
+                        <!-- <div class="station-name-text">
+                            <h4 style="margin-left: -2vh;">Workout</h4>
+                        </div> -->
+                    </div>
+
+                    <div class="station-name">
+                        <img src="Images/station/love.jpg" alt="">
+                        <h4>Love</h4>
+                        <!-- <div class="station-name-text">
+                            <h4>Rock</h4>
+                        </div> -->
+                    </div>
+
+                    <div class="station-name">
+                        <img src="Images/station/rock.jpg" alt="">
+                        <h4>Rock</h4>
+                        <!-- <div class="station-name-text">
+                            <h4>Pop</h4>
+                        </div> -->
+                    </div>
+
+                </div>
+            </section>
+            <section id="song-type">
+                <div class="song-type size-adjust">
+
+                    <div class="song-type-name zoom-2">
+                        <img src="Images/station/love-mashup.jpg" alt="">
+                        <h4>Romantic</h4>
+                        
+                    </div>
+
+                    <div class="song-type-name zoom-2">
+                        <img src="Images/station/road_trip.jpg" alt="">
+                        <h4 style="margin-left: 6.5vw;">Road Trip</h4>
+                        <!-- <div class="song-type-name-text">
+                            <h4 style="margin-left: -1.5vw;">Electronic</h4>
+                        </div> -->
+                    </div>
+
+                    <div class="song-type-name zoom-2">
+                        <img src="Images/station/bollywood.jpg" alt="">
+                        <h4 style="margin-left: 5vw;">Bollywood</h4>
+                        <!-- <div class="song-type-name-text">
+                            <h4 style="margin-left: -3.5vw; ">Road Trip</h4>
+                        </div> -->
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="language">
+                <div class="parent-div">
+                    <div class="text-div">
+                        <h3>Latest English</h3>
+                    </div>
+
+                    <div class="latest-language size-adjust">
+
+                        <div class="latest-language-name">
+                            <img src="Images/latest-english-songs/taki_taki.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/latest-english-songs/godzilla.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/latest-english-songs/cry_cry_cry.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/latest-english-songs/rare.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/latest-english-songs/adore_you.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/latest-english-songs/yummy.jpg" alt="">
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="text-div size-adjust general-name" style="margin-left: 4vw;">
+                    <div>
+                        <h4>Taki Taki </h4>
+                        <p>JAN 11, 2020</p>
+                    </div>
+                    <div>
+                        <h4> Godzilla</h4>
+                        <p>DEC 10, 2019</p>
+                    </div>
+                    <div>
+                        <h4>Cry Cry Cry</h4>
+                        <p>FEB 04, 2020</p>
+                    </div>
+                    <div>
+                        <h4>Rare</h4>
+                        <p>JAN 13, 2020</p>
+                    </div>
+                    <div>
+                        <h4>Adore You</h4>
+                        <p>Dec 31, 2019</p>
+                    </div>
+                    <div>
+                        <h4>Yummy</h4>
+                        <p>Jan 3, 2020</p>
+                    </div>
+
+                </div>
+
+                <div class="parent-div">
+                    <div class="text-div">
+                        <h3>Latest Hindi</h3>
+                    </div>
+
+                    <div class="latest-language size-adjust">
+
+                        <div class="latest-language-name">
+                            <img src="Images/hindi/galat.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/hindi/mummy.png" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/hindi/street_dancer.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/hindi/shayad.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/hindi/baaghi.jpg" alt="">
+                        </div>
+
+                        <div class="latest-language-name">
+                            <img src="Images/hindi/dooriyan.jpg" alt="">
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="text-div size-adjust general-name" style="margin-left: 4vw;">
+                    <div>
+                          <h4> &nbsp;Hain  <br> &nbsp;Mai Galat </h4>
+                        <p>FEB 14, 2020</p>
+                    </div>
+                    <div>
+                          <h4> &nbsp;Mummy <br> &nbsp;Nu Pasand </h4>
+                        <p>DEC 16, 2019</p>
+                    </div>
+                    <div>
+                          <h4> &nbsp;Illegal <br> &nbsp;Weapon </h4>
+                        <p>JAN 09, 2020</p>
+                    </div>
+                    <div>
+                        <h4>Shayad</h4>
+                        <p>FEB 03, 2020</p>
+                    </div>
+                    <div>
+                        <h4>Bhankas</h4>
+                        <p>FEB 20, 2020</p>
+                    </div>
+                    <div>
+                        <h4>Dooriyan</h4>
+                        <p>Jan 29, 2020</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+    </div>
+
+
+    <aside class="aside-part">
+        <div class="aside-div size-adjust">
+            <div class="aside-div-detail size-adjust"
+                style="margin-top: -8vh; position: fixed; background-color: #0c1027; height: 6.4vh;">
+                <div class="size-adjust">
+                    <h2 style="margin-left: 1.8vw; margin-top: 1.5vh;">Queue</h2>
+                    <p style="margin-top: 2.5vh; margin-left: 7vw; color: rgb(54, 191, 76);">Queue</p>
+
+
+
+
+                    <h3 class="queue-dropdown">
+                        <input id="check01" type="checkbox" name="menu" />
+                        <label for="check01"><i class="material-icons"><span
+                                    style="margin-top: 4.5vh; margin-left: 2.5vw; cursor: pointer;"><img
+                                        src="Images/icon/arrow.png" alt=""></span></i></label>
+                        <ul class="submenu">
+                            <li>Playlists</li>
+                            <li>
+                                <hr>
+                            </li>
+                            <li>Favourite Songs</li>
+                        </ul>
+                    </h3>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>01</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/rare.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Rare </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Selena Gomez</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>02</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/shayad.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Shayad </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Arjit Singh</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>03</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/dheeme.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Dheeme Dheeme </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Tony Kakkar</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>04</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/baaghi.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Bhankas </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Jonita Gandhi</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>05</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/friends.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Friends </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Marshmello</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>06</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/mia.png" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Mia </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Bad Bunny Feat Drake</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>07</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/kodaline.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Follow Your Fire </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Kodaline</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>08</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/emiway.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Machayenge </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Emiway</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>09</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/Malang.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Hui Malang </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Assess Kaur</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>10</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/cry_cry_cry.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Cry Cry Cry </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Coldstone</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>11</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/adore_you.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Adore You </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Dua Lipa</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>12</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/channa_veh.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Channa Veh </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Akhil Sachdeva</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>13</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/made_in_india.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Made In India </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Guru Randhawa</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>14</p>
+                </div>
+                <div class="aside-image">
+                    <img src="Images/queue/lahore.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Lagdi Lahore </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Guru Randhawa</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+
+            <div class="aside-div-detail size-adjust">
+                <div class="aside-num">
+                    <p>15</p>
+                </div>
+                <div class="aside-image">
+                    <img src="images/queue/dilbar.jpg" alt="">
+                </div>
+                <div class="aside-image-detail">
+                    <h4 style="margin-top: 2.5vh;"> Dilbar </h4>
+                    <p style="font-size:1.7vh; margin-top: -3vh;">Dhvani</p>
+                </div>
+                <div class="aside-heart">
+                    <img src="Images/icon/heart_icon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ---------------------------Footer Section------------------------------------- -->
+    <footer id="footer">
+        <div class="music-control size-adjust">
+            <div class="footer-image">
+                <span><img src="Images/queue/rare.jpg" alt="" style="cursor: pointer;"></span>
+            </div>
+            <div class="footer-name ">
+                <div class="footer-text">
+                    <h3 style="cursor: pointer;">Rare</h3>
+                    <p style="margin-top: -2vh; font-size: 10px; cursor: pointer; cursor: pointer;">Selena Gomez</p>
+                </div>
+                
+            </div>
+            <div class="music-functions">
+                <div class="control">
+                    <img src="Images/icon/random-24.png" alt="" style="cursor: pointer;">
+                    <img src="Images/icon/media-step-backward-24.png" alt="" style="cursor: pointer;">
+                    <img src="Images/icon/pause.png" alt=""
+                        style="padding: 1vh; border: 2px solid whitesmoke; margin-top: 1.5vh; cursor: pointer;">
+                    <img src="Images/icon/media-step-forward-24.png" alt="" style="cursor: pointer;">
+                    <img src="Images/icon/repeat-24.png" alt="" style="cursor: pointer;">
+                </div>
+                <div class="timer">
+                    <div class="count">
+                        <p style="font-size: 10px;">2:32</p>
+                    </div>
+                    <div class="time-progress">
+                        <div class="progress thirty-five-percent mb-green">
+
+                        </div>
+                        <div class="bubble">
+
+                        </div>
+                    </div>
+
+                    <div class="count-2">
+                        <p style="font-size: 10px;">4:05</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sound size-adjust">
+                <div class="sound-detail size-adjust">
+
+                    <div class="sound-menu">
+                        <img src="Images/icon/menu-4-24.png" alt="" style="margin-top: 0.7vh; cursor: pointer;">
+                    </div>
+                    <div class="remote">
+                        <img src="Images/icon/speaker.png" alt="" style="margin-top: 1vh; cursor: pointer;">
+                    </div>
+
+                    <div class="volume">
+                        <div class="speaker">
+                            <img src="Images/icon/speaker-big.png" alt="" style="cursor: pointer;">
+                            <div class="volume-progress">
+                                <div class="v-progress fifty-percent mb-green">
+
+                                </div>
+                                <div class="bubble-2">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-screen">
+                        <img src="Images/icon/fullscreen.png" alt="" style="margin-top: 1vh;">
+                    </div>
+
+                </div>
+            </div>
+
+    </footer>
+</body>
+
+</html>
